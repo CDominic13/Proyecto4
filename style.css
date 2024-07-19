@@ -13,6 +13,9 @@
 .item-image {
   height: 300px;
   width: 100%;
+  object-fit: cover; 
+  display: block; 
+  margin-bottom: 15px;
 }
 
 .item-details {
@@ -51,3 +54,4 @@
 .shopping-cart-total {
   min-height: 96px;
 }
+
